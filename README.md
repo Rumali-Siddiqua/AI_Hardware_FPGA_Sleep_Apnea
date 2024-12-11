@@ -44,3 +44,13 @@ Phase 3: Hardware Implementation
 Phase 4: Testing and Validation
 - Evaluate system performance on test datasets.
 - Measure hardware metrics like power consumption and resource utilization.
+
+  ## Project Deliverables
+
+  | Date                | Submission                  |
+|---------------------|-----------------------------|
+| November 7th, 2024  | Project Proposal            |
+| November 26th, 2024 | Milestone 1                 |
+| December 5th, 2024  | Final Project Presentation  |
+| December 9th, 2024  | Final Project Report        |
+
