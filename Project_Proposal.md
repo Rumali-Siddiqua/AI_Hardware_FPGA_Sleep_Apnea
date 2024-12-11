@@ -19,7 +19,7 @@ This project addresses the prevalent issue of sleep apnea, a disorder causing in
 - Implement the software model in Nexys 4 FPGA board
 - Achieve high performance in terms of Accuracy, Sensitivity and Specificity
 
-  ## Technology Stack:
+## Technology Stack:
 Hardware: NEXYS 4 Equipped with Xilinx Artix-7 FPGA
 
 Software Tools: MATLAB, Xilinx Vivado Design Suite
