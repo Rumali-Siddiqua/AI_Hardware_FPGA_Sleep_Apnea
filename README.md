@@ -45,7 +45,7 @@ Phase 4: Testing and Validation
 - Evaluate system performance on test datasets.
 - Measure hardware metrics like power consumption and resource utilization.
 
-  ## Project Deliverables
+## Project Deliverables
 
 | Date                | Submission                  |
 |---------------------|-----------------------------|
