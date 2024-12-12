@@ -19,7 +19,7 @@ The MATLAB code is for analyzing EEG data, specifically for detecting sleep apne
 
 ## Feature Extraction:
 
-- Extracts statistical and signal-based features such as:
+Extracts statistical and signal-based features such as:
 
 1. Energy
 2. Kurtosis
@@ -31,6 +31,7 @@ The MATLAB code is for analyzing EEG data, specifically for detecting sleep apne
 8. Mean Absolute Deviation (MAD)
 9. Complexity (Com)
 10. Integral
+    
 These features are calculated for both normal and apnea segments across all frequency bands.
 
 ## Data Aggregation:
