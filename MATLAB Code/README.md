@@ -1,3 +1,5 @@
+## EEG Data
+
 The MATLAB code is for analyzing EEG data, specifically for detecting sleep apnea episodes by processing EEG signals from a subject.
 
 ## Data Loading:
@@ -18,16 +20,17 @@ Separates EEG data into normal and apnea periods for each frequency band.
 ## Feature Extraction:
 
 Extracts statistical and signal-based features such as:
-Energy
-Kurtosis
-Skewness
-Interquartile Range (IQR)
-Absolute Sum (Ass)
-Activity
-Mobility
-Mean Absolute Deviation (MAD)
-Complexity (Com)
-Integral
+
+1. Energy
+2. Kurtosis
+3. Skewness
+4. Interquartile Range (IQR)
+5. Absolute Sum (Ass)
+6. Activity
+7. Mobility
+8. Mean Absolute Deviation (MAD)
+9. Complexity (Com)
+10. Integral
 These features are calculated for both normal and apnea segments across all frequency bands.
 
 ## Data Aggregation:
