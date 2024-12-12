@@ -1,5 +1,44 @@
-The MATLAB code is designed to analyze EEG data to detect sleep apnea episodes. It begins by reading an EDF file containing EEG signals from a specific subject and extracting data from two channels, C3A2 and C4A1. These channels are combined through averaging to create a single signal for further analysis. The preprocessing phase involves applying a Butterworth bandpass filter to isolate frequency bands commonly associated with sleep stages: delta, theta, alpha, sigma, and beta. The code then segments the EEG data into normal and apnea periods based on the start and end times provided in an associated Excel file. This segmentation allows for targeted analysis of specific signal intervals.
+The MATLAB code is for analyzing EEG data, specifically for detecting sleep apnea episodes by processing EEG signals from a subject.
 
-For feature extraction, the code computes various statistical and signal-based parameters, including energy, kurtosis, skewness, interquartile range (IQR), activity, mobility, mean absolute deviation (MAD), and complexity. These features are calculated separately for normal and apnea segments across all frequency bands, capturing the distinct characteristics of the EEG signals during different states. The extracted features are organized into matrices, which serve as inputs for further analysis or machine learning models.
+## Data Loading:
 
-The code also includes a quantization step to prepare the EEG signals for compatibility with hardware implementation or low-precision processing. Finally, processed signals and feature data for delta and beta bands are saved into text files, enabling further analysis. 
+Reads an EDF file containing EEG data for a specific subject.
+Extracts EEG signals from two channels (C3A2 and C4A1) for further processing.
+
+## Preprocessing:
+
+Combines the two EEG channels to create a single averaged signal.
+Applies a Butterworth bandpass filter to isolate specific frequency bands: delta, theta, alpha, sigma, and beta.
+
+## Segmentation:
+
+Uses Excel data to identify the start and end times of apnea episodes.
+Separates EEG data into normal and apnea periods for each frequency band.
+
+## Feature Extraction:
+
+Extracts statistical and signal-based features such as:
+Energy
+Kurtosis
+Skewness
+Interquartile Range (IQR)
+Absolute Sum (Ass)
+Activity
+Mobility
+Mean Absolute Deviation (MAD)
+Complexity (Com)
+Integral
+These features are calculated for both normal and apnea segments across all frequency bands.
+
+## Data Aggregation:
+
+Aggregates features into matrices for normal and apnea segments.
+Creates files containing delta and beta band data for normal and apnea cases.
+
+## Quantization:
+
+Performs quantization of EEG signals for further processing or hardware implementation.
+
+## Output:
+
+Saves results (processed signals and extracted features) into text files for further analysis or machine learning models.
